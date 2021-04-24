@@ -82,4 +82,4 @@ while not exit_game:
 
 pygame.quit()#in do line se game loop ko roka jata hain nahi to infinite loop chalega
 quit()
-#pahle pygame quit hoga phir programme quit hoga 
+#pahle pygame module quit hoga phir programme quit hoga 
