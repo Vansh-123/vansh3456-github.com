@@ -33,19 +33,19 @@ while not exit_game:
             exit_game = True
 
         if event.type == pygame.KEYDOWN:
-            if event.key in [pygame.K_RIGHT, pygame.K_d, pygame.K_D]:
+            if event.key in [pygame.K_RIGHT, pygame.K_d]:
                 velocity_x = 10
                 velocity_y = 0
 
-            if event.key in [pygame.K_LEFT, pygame.K_a, pygame.K_A]:
+            if event.key in [pygame.K_LEFT, pygame.K_a]:
                 velocity_x = - 10
                 velocity_y = 0
 
-            if event.key in [pygame.K_UP, pygame.K_w, pygame.K_W]:
+            if event.key in [pygame.K_UP, pygame.K_w]:
                 velocity_y = - 10
                 velocity_x = 0
 
-            if event.key in [pygame.K_DOWN, pygame.K_s, pygame.K_S]:
+            if event.key in [pygame.K_DOWN, pygame.K_s]:
                 velocity_y = 10
                 velocity_x = 0
 
